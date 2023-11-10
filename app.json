@@ -1,0 +1,57 @@
+{
+  "expo": {
+    "name": "Map",
+    "slug": "map",
+    "scheme": "untitled-app",
+    "description": "My app powered by Draftbit",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5A45FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.draftbit.untitledapp",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app uses the location to create a list of local services."
+      },
+      "usesIcloudStorage": false,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": [
+        "ACCESS_BACKGROUND_LOCATION"
+      ],
+      "adaptiveIcon": {}
+    },
+    "androidStatusBar": {},
+    "androidNavigationBar": {},
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    },
+    "extra": {
+      "eas": {
+        "projectId": ""
+      }
+    }
+  }
+}
